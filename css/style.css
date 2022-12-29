@@ -28,6 +28,7 @@ body{
 /***************************Navbar*****************************************************/
 .header{
     display:flex;
+    text-align: center;
     align-items:center;
     justify-content:space-between;
     width:100%;
@@ -74,14 +75,34 @@ header i{
 .home{
     min-height: 100vh;
     width:100vw;
-   background-image: linear-gradient(to top, #ba06d2, #ad3fdf, #a059e8, #946def, #8b7ef2);;
+    background-image: linear-gradient(to top, #ba06d2, #ad3fdf, #a059e8, #946def, #8b7ef2);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    padding: 0 1rem;
+    overflow:hidden !important;
+  
+}
+
+.home h1{
+    font-size: 4rem;
+    color:#fff;
+    text-shadow: 0 0.3 0.5 rgba(0,0,0,0.3);
+}
+
+.home h2{
+    font-size: 2.5rem;
+    color:aquamarine;
+    font-weight: 400;
+    text-shadow: 0 0.3 0.5 rgba(0,0,0,0.3);
 }
 
 
 
-
 /***********************Media Queries***********************/
-@media (max-width:800px){
+@media (max-width:750px){
     html{
         font-size:62.5%;
     }   
@@ -96,5 +117,24 @@ header i{
     .navbar{
         height:110px;
     }
- 
+
+    .home h1{
+        font-size:2rem;
+        margin-top:2rem;
+    }
+    
+    .home h2{
+        font-size:1.5rem;
+    }
+}
+
+@media (max-width:550px){
+    nav ul{
+        flex-direction:column;
+        width:550px;
+    }
+
+    .home h1{
+        margin-top:2rem;
+    }
 }
