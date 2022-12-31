@@ -23,6 +23,14 @@ body{
     overflow-x: hidden;
 }
 
+.about h1{
+    font-size:3.5rem;
+    font-weight:bold;
+    color:var(--primary-color);
+    letter-spacing: .2rem;
+    text-decoration:underline;
+    
+}
 
 
 /***************************Navbar*****************************************************/
@@ -139,16 +147,46 @@ header i{
     animation: rotate 10s linear infinite;
 }
 
-.home .nut1{
-    top:10%;
-    left:-10rem;
 
-}
 
 
 
 @keyframes rotate {
     100%{transform:rotate(360deg)}
+}
+
+/***********************About us****************************/
+.about{
+    min-height:100vh;
+    width:100vw;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+}
+
+
+.container{
+    display:flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:0 4rem;
+}
+
+.container .content h3{
+    text-align: left;
+    font-size:4rem;
+    color:var(--primary-color);
+}
+
+.container .content p{
+    text-align:left;
+    font-size:2rem;
+    color:var(--primary-color);
+}
+
+.container .image img{
+    width:50vw;
 }
 /***********************Media Queries***********************/
 @media (max-width:750px){
