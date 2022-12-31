@@ -82,6 +82,7 @@ header i{
     justify-content: center;
     margin:auto;
     padding: 0 1rem;
+    position:relative;
     overflow:hidden !important;
   
 }
@@ -99,8 +100,56 @@ header i{
     text-shadow: 0 0.3 0.5 rgba(0,0,0,0.3);
 }
 
+.home .wave{
+    position:absolute;
+    bottom:-.5rem;
+    left:0;
+    height:8rem;
+    width:100%;
+    background: url('../images/wave.png');
+    background-size:100rem 8rem;
+    background-repeat: repeat-x;
+    animation:waves 10s linear infinite;
+}
+
+.home .wave2{
+   animation-direction:reverse;
+   opacity:0.2;
+}
+
+.home .wave3{
+    animation-duration: 3s;
+    opacity:0.5;
+}
+
+@keyframes waves{
+    0%{
+        background-position-x:0;
+    }
+    100%{
+        background-position-x:100rem;
+    }
+}
+
+.home .fa-braille{
+    position:absolute;
+    font-size:25rem;
+    opacity:.15;
+    color:aquamarine;
+    animation: rotate 10s linear infinite;
+}
+
+.home .nut1{
+    top:10%;
+    left:-10rem;
+
+}
 
 
+
+@keyframes rotate {
+    100%{transform:rotate(360deg)}
+}
 /***********************Media Queries***********************/
 @media (max-width:750px){
     html{
