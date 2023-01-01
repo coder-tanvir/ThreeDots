@@ -167,15 +167,15 @@ header i{
 
 .container{
     display:flex;
-    align-items:center;
     flex-direction: row;
+    align-items:center;
     justify-content: space-around;
     padding:0 4rem;
 }
 
 .container .content h3{
     text-align: left;
-    font-size:4rem;
+    font-size:3rem;
     color:var(--primary-color);
 }
 
@@ -212,6 +212,20 @@ header i{
     
     .home h2{
         font-size:1.5rem;
+    }
+    
+    .container{
+        flex-direction: column;
+        padding:0 2rem;
+    }
+
+  
+    .container .image img{
+        width:100vw;
+    }
+
+    .container .content h3,p{
+        text-align: center;
     }
 }
 
