@@ -266,6 +266,18 @@ header i{
     border-bottom: .2px solid grey;
 }
 
+/***********************30000+******************************/
+.three-thousand{
+   height:40vh;
+   width:100vw;
+   color:blue;
+   text-align: center;
+   font-size:2rem;
+   padding:3rem;
+   font-weight:bold;
+}
+
+
 
 /***********************Media Queries***********************/
 @media (max-width:750px){
