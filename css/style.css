@@ -23,6 +23,7 @@ body{
     overflow-x: hidden;
 }
 
+
 .about h1{
     font-size:3.5rem;
     font-weight:bold;
@@ -147,17 +148,13 @@ header i{
     animation: rotate 10s linear infinite;
 }
 
-
-
-
-
 @keyframes rotate {
     100%{transform:rotate(360deg)}
 }
 
 /***********************About us****************************/
 .about{
-    min-height:100vh;
+    min-height:70vh;
     width:100vw;
     text-align:center;
     position:relative;
@@ -187,6 +184,51 @@ header i{
 
 .container .image img{
     width:50vw;
+}
+
+/***********************Services****************************/
+.services{
+    min-height:95vh;
+    width:100vw;
+    background-image: linear-gradient(to top, #7fffd4, #89ffff, #bdfdff, #ebfbff, #ffffff);
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+}
+.services h1{
+    font-size:3.5rem;
+    color:aquamarine;
+    padding:2rem;
+}
+.languages{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.card{
+    height:370px;
+    width:250px;
+    background-color: #fff;
+    color:black;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    margin:3rem 0;
+}
+
+.card img{
+    height:150px;
+    width:250px;
+    border-radius: 40%;
+}
+
+.card ul li{
+    font-size:1.5rem;
+    list-style-type: none;
+    border-bottom: .2px solid grey;
+}
+
+.card h2{
+    color:#7fffd4;
 }
 /***********************Media Queries***********************/
 @media (max-width:750px){
