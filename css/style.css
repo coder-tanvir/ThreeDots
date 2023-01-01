@@ -199,7 +199,8 @@ header i{
 .business{
     display:flex;
     justify-content: space-around;
-    padding:5rem;
+    padding:7rem;
+
 }
 
 .business .content{
@@ -225,14 +226,23 @@ header i{
 }
 
 .services h1{
-    font-size:3.5rem;
-    color:aquamarine;
+    color:#5E6AE0;
     padding:2rem;
+    font-size:3.5rem;
 }
+
+.language-heading{
+    margin-top:13rem;
+}
+.card h2{
+    color:#5E6AE0;
+}
+
 .languages{
     display:flex;
     justify-content: space-around;
     text-align: center;
+    margin:3rem;
 }
 .card{
     height:370px;
@@ -256,9 +266,7 @@ header i{
     border-bottom: .2px solid grey;
 }
 
-.card h2{
-    color:#7fffd4;
-}
+
 /***********************Media Queries***********************/
 @media (max-width:750px){
     html{
@@ -301,13 +309,17 @@ header i{
 
     .business{
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
     .business-cards{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+    }
+    
+    .languages{
+        flex-direction: column;
         align-items: center;
     }
 }
