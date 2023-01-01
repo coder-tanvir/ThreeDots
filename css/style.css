@@ -298,6 +298,18 @@ header i{
     .container .content h3,p{
         text-align: center;
     }
+
+    .business{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .business-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width:550px){
