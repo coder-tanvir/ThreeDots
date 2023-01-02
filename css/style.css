@@ -280,10 +280,10 @@ header i{
 /***********************Processes***************************/
 .process{
     width:100vw;
-    height:90vh;
+    height:95vh;
     display:flex;
     justify-content: space-around;
-    background-color: #5E6AE0;
+    background-image: linear-gradient(to left top, #afb6fb, #c6c7fc, #dbd9fd, #eeecfe, #ffffff);
     font-size:1.5rem;
 }
 
@@ -294,13 +294,13 @@ header i{
 
 .process-content button{
     height:50px;
-    width:150px;
+    width:300px;
     border-radius:5px;
+    margin-top: 10px;
     background-color: transparent;
 }
 .process-box{
     width:35vw;
-    background-color: blue;
     padding:3rem;
 }
 
@@ -309,17 +309,51 @@ header i{
     justify-content: space-between;
 }
 
+.process-headers h6{
+    color:black;
+    font-size:1.5rem;
+    
+}
 .process-card{
     background-color: whitesmoke;
     width:10vw;
     height:10vh;
     font-size:1.5rem;
-    margin-top:5px;
+    margin-top:10px;
     margin-right:5px;
     border-radius:5px ;
-    padding:2rem;
+    padding:1rem;
     text-align:center;
+    animation:card-animation 6s linear infinite;
 }
+
+@keyframes card-animation {
+    0%{
+        transform:translateX(0);
+        
+    }
+    50%{
+        transform:translateX(270px);
+        color:aquamarine;
+        font-size:2rem;
+    }
+    70%{
+        transform:translateX(270px);
+        color:aquamarine;
+        font-size:2rem;
+    }
+    80%{
+        transform:translateX(270px);
+        color:aquamarine;
+        font-size:2rem;
+    }
+    100%{
+        transform:translateX(0);
+        color:aquamarine;
+    }
+}
+
+
 /***********************Media Queries***********************/
 @media (max-width:750px){
     html{
@@ -375,8 +409,66 @@ header i{
         flex-direction: column;
         align-items: center;
     }
+    .three-thousand{
+        font-size:1.5rem;
+    }
+    .process{
+        flex-direction:column;
+        height:170vh;
+    }
+    .process-content{
+        width:100vw;
+        text-align:center;
+        
+    }
+    .process-box
+    {
+        width:100vw;
+    }
+
+    .process-card{
+        background-color: whitesmoke;
+        width:18vw;
+        height:13vh;
+        font-size:1.5rem;
+        margin-top:10px;
+        margin-right:5px;
+        border-radius:5px ;
+        padding:1rem;
+        text-align:center;
+        animation:card-animation 6s linear infinite;
+    }
+
+    @keyframes card-animation {
+        0%{
+            transform:translateX(0);
+            
+        }
+        50%{
+            transform:translateX(330px);
+            color:aquamarine;
+            font-size:2rem;
+        }
+        70%{
+            transform:translateX(330px);
+            color:aquamarine;
+            font-size:2rem;
+        }
+        80%{
+            transform:translateX(330px);
+            color:aquamarine;
+            font-size:2rem;
+        }
+        100%{
+            transform:translateX(0);
+            color:aquamarine;
+        }
+    }
 }
 
+
+
+/***********Mobile********************/
 @media (max-width:550px){
     nav ul{
         flex-direction:column;
