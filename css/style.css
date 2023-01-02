@@ -300,8 +300,8 @@ header i{
     background-color: transparent;
 }
 .process-box{
-    width:35vw;
-    padding:3rem;
+    width:450px;
+    padding:2rem;
 }
 
 .process-headers{
@@ -489,7 +489,8 @@ header i{
     }
     .process-box
     {
-        width:100vw;
+        width:450px;
+        margin:auto;
     }
     .process-card1{
         background-color: whitesmoke;
@@ -512,7 +513,7 @@ header i{
         border-radius:5px ;
         padding:1rem;
         text-align:center;
-        animation:card-animation 6s linear infinite;
+        animation:card-animation 10s linear infinite;
     }
 
     @keyframes card-animation {
@@ -520,18 +521,18 @@ header i{
             transform:translateX(0);
             
         }
-        50%{
-            transform:translateX(330px);
+        30%{
+            transform:translateX(310px);
             color:#8B7EF2;
             font-size:2rem;
         }
         70%{
-            transform:translateX(330px);
+            transform:translateX(310px);
             color:#8B7EF2;
             font-size:2rem;
         }
         80%{
-            transform:translateX(330px);
+            transform:translateX(310px);
             color:#8B7EF2;
             font-size:2rem;
         }
@@ -579,6 +580,11 @@ header i{
     .process{
         height:190vh;
     }
+    .process-box
+    {
+        width:450px;
+        margin:auto;
+    }
     .process-card1{
         background-color: whitesmoke;
         width:20vw;
@@ -600,7 +606,7 @@ header i{
         border-radius:5px ;
         padding:1rem;
         text-align:center;
-        animation:card-animation 6s linear infinite;
+        animation:card-animation 10s linear infinite;
     }
 
     @keyframes card-animation {
@@ -608,18 +614,18 @@ header i{
             transform:translateX(0);
             
         }
-        50%{
-            transform:translateX(230px);
+        30%{
+            transform:translateX(260px);
             color:#8B7EF2;
             font-size:2rem;
         }
         70%{
-            transform:translateX(230px);
+            transform:translateX(260px);
             color:#8B7EF2;
             font-size:2rem;
         }
         80%{
-            transform:translateX(230px);
+            transform:translateX(260px);
             color:#8B7EF2;
             font-size:2rem;
         }
