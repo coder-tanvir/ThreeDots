@@ -49,11 +49,11 @@ body{
 }
 
 header h1{
-    color:#fff;
+    color:#8B7EF2;
 }
 
 header i{
-    color:aquamarine;
+    color:#8B7EF2;
 }
 
 
@@ -70,7 +70,7 @@ header i{
 
 .header .navbar ul li a{
     font-size:2rem;
-    color:#fff;
+    color:#8B7EF2;
 }
 
 .header .navbar ul li a:hover{
@@ -283,7 +283,7 @@ header i{
     height:95vh;
     display:flex;
     justify-content: space-around;
-    background-image: linear-gradient(to left top, #afb6fb, #c6c7fc, #dbd9fd, #eeecfe, #ffffff);
+    background-image: linear-gradient(to top, #7fffd4, #89ffff, #bdfdff, #ebfbff, #ffffff);
     font-size:1.5rem;
 }
 
@@ -314,6 +314,18 @@ header i{
     font-size:1.5rem;
     
 }
+.process-card1{
+    background-color: whitesmoke;
+    width:10vw;
+    height:10vh;
+    font-size:1.5rem;
+    margin-top:10px;
+    margin-right:5px;
+    border-radius:5px ;
+    padding:1rem;
+    text-align:center;
+    
+}
 .process-card{
     background-color: whitesmoke;
     width:10vw;
@@ -324,32 +336,33 @@ header i{
     border-radius:5px ;
     padding:1rem;
     text-align:center;
-    animation:card-animation 6s linear infinite;
+    animation:card-animation 10s linear infinite;
 }
+
 
 @keyframes card-animation {
     0%{
         transform:translateX(0);
         
     }
-    50%{
+    30%{
         transform:translateX(270px);
-        color:aquamarine;
+        color:#8B7EF2;
         font-size:2rem;
     }
     70%{
         transform:translateX(270px);
-        color:aquamarine;
+        color:#8B7EF2;
         font-size:2rem;
     }
     80%{
         transform:translateX(270px);
-        color:aquamarine;
+        color:#8B7EF2;
         font-size:2rem;
     }
     100%{
         transform:translateX(0);
-        color:aquamarine;
+        color:#8B7EF2;
     }
 }
 
@@ -425,7 +438,17 @@ header i{
     {
         width:100vw;
     }
-
+    .process-card1{
+        background-color: whitesmoke;
+        width:18vw;
+        height:13vh;
+        font-size:1.5rem;
+        margin-top:10px;
+        margin-right:5px;
+        border-radius:5px ;
+        padding:1rem;
+        text-align:center;
+    }
     .process-card{
         background-color: whitesmoke;
         width:18vw;
@@ -446,22 +469,22 @@ header i{
         }
         50%{
             transform:translateX(330px);
-            color:aquamarine;
+            color:#8B7EF2;
             font-size:2rem;
         }
         70%{
             transform:translateX(330px);
-            color:aquamarine;
+            color:#8B7EF2;
             font-size:2rem;
         }
         80%{
             transform:translateX(330px);
-            color:aquamarine;
+            color:#8B7EF2;
             font-size:2rem;
         }
         100%{
             transform:translateX(0);
-            color:aquamarine;
+            color:#8B7EF2;
         }
     }
 }
@@ -477,5 +500,57 @@ header i{
 
     .home h1{
         margin-top:2rem;
+    }
+    .process{
+        height:190vh;
+    }
+    .process-card1{
+        background-color: whitesmoke;
+        width:20vw;
+        height:16vh;
+        font-size:1.5rem;
+        margin-top:10px;
+        margin-right:5px;
+        border-radius:5px ;
+        padding:1rem;
+        text-align:center;
+    }
+    .process-card{
+        background-color: whitesmoke;
+        width:20vw;
+        height:16vh;
+        font-size:1.5rem;
+        margin-top:10px;
+        margin-right:5px;
+        border-radius:5px ;
+        padding:1rem;
+        text-align:center;
+        animation:card-animation 6s linear infinite;
+    }
+
+    @keyframes card-animation {
+        0%{
+            transform:translateX(0);
+            
+        }
+        50%{
+            transform:translateX(230px);
+            color:#8B7EF2;
+            font-size:2rem;
+        }
+        70%{
+            transform:translateX(230px);
+            color:#8B7EF2;
+            font-size:2rem;
+        }
+        80%{
+            transform:translateX(230px);
+            color:#8B7EF2;
+            font-size:2rem;
+        }
+        100%{
+            transform:translateX(0);
+            color:#8B7EF2;
+        }
     }
 }
