@@ -98,13 +98,13 @@ header i{
 
 .home h1{
     font-size: 4rem;
-    color:#fff;
+    color:#8B7EF2;
     text-shadow: 0 0.3 0.5 rgba(0,0,0,0.3);
 }
 
 .home h2{
     font-size: 2.5rem;
-    color:aquamarine;
+    color:#8B7EF2;
     font-weight: 400;
     text-shadow: 0 0.3 0.5 rgba(0,0,0,0.3);
 }
@@ -420,6 +420,53 @@ header i{
     padding:1rem;
 }
 
+/***********************Dream*******************************/
+
+.dream{
+    width:100vw;
+    height:auto;
+    display:flex;
+    justify-content:space-around;
+    padding:5rem;
+    margin-top:70px;
+}
+
+.dream-content h1{
+    font-size:3.5rem;
+}
+
+.dream-content li{
+    font-size: 2rem;
+    list-style-type: none;
+}
+
+.dream-content p{
+    font-size:1rem;
+}
+.dream-images{
+    width:55vw;
+    height:500px;
+}
+
+.dream-image1 img{
+    width:500px;
+    height:300px;
+    position:absolute;
+    opacity:0.6;
+}
+
+.dream-image2 img{
+    width:200px;
+    height:350px;
+    border:1px solid whitesmoke;
+    border-radius:15px;
+    position:absolute;
+}
+
+.stack-top{
+    z-index:9;
+    margin:30px;
+}
 /***********************Media Queries***********************/
 @media (max-width:750px){
     html{
