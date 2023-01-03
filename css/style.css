@@ -692,16 +692,45 @@ header i{
     .dream{
         flex-direction: column;
         align-items:center;
+        justify-content:center;
     }
 
     .dream-images{
         width:100vw;
         height:500px;
+        margin:auto;
     }
 
     .dream-content{
         text-align: center;
     }
+
+    .right-website h1{
+        font-size:2rem;
+    }
+
+    .website-icon p{
+        font-size:1rem;
+    }
+    .people{
+        flex-direction:column;
+    }
+
+    .first-line{
+        justify-content:center;
+        margin:auto;
+    }
+    .second-line{
+        font-size:2rem;
+        margin-top:70px;
+        text-align: center;
+        margin:auto;
+    }
+
+    .third-line{
+        margin-top:10px;
+    }
+    
 }
 
 
