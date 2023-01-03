@@ -190,7 +190,7 @@ header i{
 .services{
     min-height:175vh;
     width:100vw;
-    background-image: linear-gradient(to top, #7fffd4, #89ffff, #bdfdff, #ebfbff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #f2fbff, #d5fbff, #adfdff, #89ffff, #89ffff, #89ffff, #89ffff, #adfdff, #d5fbff, #f2fbff, #ffffff);
     text-align:center;
     align-items:center;
     justify-content:center;
@@ -226,16 +226,21 @@ header i{
 }
 
 .services h1{
-    color:#5E6AE0;
+    color:black;
     padding:2rem;
     font-size:3.5rem;
 }
 
 .language-heading{
     margin-top:13rem;
+    color:black;
 }
+
+
 .card h2{
     color:#5E6AE0;
+    font-size:1.5rem;
+    padding:1rem;
 }
 
 .languages{
@@ -245,7 +250,7 @@ header i{
     margin:3rem;
 }
 .card{
-    height:370px;
+    height:300px;
     width:250px;
     background-color: #fff;
     color:black;
@@ -254,16 +259,13 @@ header i{
     margin:3rem 0;
 }
 
-.card img{
-    height:150px;
-    width:250px;
-    border-radius: 40%;
-}
+
 
 .card ul li{
-    font-size:1.5rem;
+    font-size:2rem;
     list-style-type: none;
     border-bottom: .2px solid grey;
+    margin-top:5px;
 }
 
 /***********************30000+******************************/
@@ -471,6 +473,7 @@ header i{
 /************************Right website**********************/
 .right-website{
     width:100vw;
+    background-image: linear-gradient(to bottom, #ffffff, #f2fbff, #d5fbff, #adfdff, #89ffff, #89ffff, #89ffff, #89ffff, #adfdff, #d5fbff, #f2fbff, #ffffff);
     height:auto;
     text-align:center;
     padding:3rem;
