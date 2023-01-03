@@ -467,6 +467,28 @@ header i{
     z-index:9;
     margin:30px;
 }
+
+/************************Right website**********************/
+.right-website{
+    width:100vw;
+    height:auto;
+    text-align:center;
+    padding:3rem;
+}
+
+.right-website h1{
+    font-size:3rem;   
+}
+
+.website-icon i{
+    font-size:4rem;
+    margin-top:2rem;
+}
+
+.website-icon p{
+    font-size:2rem;
+   
+}
 /***********************Media Queries***********************/
 @media (max-width:750px){
     html{
@@ -609,6 +631,20 @@ header i{
     }
     .already-card{
         margin-top:20px;
+    }
+
+    .dream{
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .dream-images{
+        width:100vw;
+        height:500px;
+    }
+
+    .dream-content{
+        text-align: center;
     }
 }
 
