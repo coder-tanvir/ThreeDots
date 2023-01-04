@@ -603,6 +603,56 @@ header i{
     font-size:1.3rem;
    display:none;
 }
+
+/************************Join*******************************/
+
+.join{
+    background-image: linear-gradient(to bottom, #ffffff, #f2fbff, #d5fbff, #adfdff, #89ffff, #89ffff, #89ffff, #89ffff, #adfdff, #d5fbff, #f2fbff, #ffffff);
+    width:100vw;
+    height:auto;
+    padding:9rem;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.join h1{
+    font-size:4rem;
+    color:darkblue;
+}
+
+.join button{
+    width:300px;
+    height:40px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/***********************Footer*****************************/
+
+.footer{
+    background-color:black;
+    color:whitesmoke;
+    width:100vw;
+    height:auto;
+    padding:10rem;
+    display:flex;
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
+    font-size:1.5rem;
+}
+
+.footer button{
+    background-color: white;
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+}
 /***********************Media Queries***********************/
 @media (max-width:750px){
     html{
@@ -789,6 +839,17 @@ header i{
         margin-top:10px;
     }
     
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer-services{
+        margin-top:30px;
+    }
+
+    .footer .moto{
+        margin-top:30px;
+    }
 }
 
 
