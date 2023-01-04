@@ -481,7 +481,8 @@ header i{
 }
 
 .right-website h1{
-    font-size:3rem;   
+    font-size:3rem;
+    margin-bottom:50px;   
 }
 
 .website-icon i{
@@ -533,7 +534,7 @@ header i{
     align-items:center;
     margin-top:150px;
     width:250px;
-    height:300px;   
+    height:300px; 
 }
 
 .third-line{
@@ -544,6 +545,38 @@ header i{
     width:430px;
     height:400px;
     border-radius:30px;
+}
+
+/**********************Partners*****************************/
+
+.partners{
+    background-image: linear-gradient(to right, #7ffd4f, #5eff9c, #65ffd3, #95fff4, #d0fdff, #c2f1ff, #c6e2ff, #dacfff, #c0abfe, #a886fa, #905ff4, #7931eb);
+    display:flex;
+    justify-content:space-between;
+    width:100vw;
+    height:auto;
+    animation: partners-animation 10s linear infinite;
+}
+
+.partners i{
+    color:black;
+    font-size:5rem;
+}
+
+@keyframes partners-animation{
+    0%{
+        transform:translatex(0);
+    }
+    
+    100%{
+        transform:translateX(100%);
+    }
+    0%{
+        transform:translateX(-100%);
+    }
+    100%{
+        transform:translateX(100%);
+    }
 }
 /***********************Media Queries***********************/
 @media (max-width:750px){
