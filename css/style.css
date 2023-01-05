@@ -46,14 +46,15 @@ body{
     top:0;
     left:0;
     z-index:100;
+    background-color: white;
 }
 
 header h1{
-    color:#8B7EF2;
+    color:darkblue;
 }
 
 header i{
-    color:#8B7EF2;
+    color:darkblue;
 }
 
 
@@ -61,7 +62,7 @@ header i{
     list-style-type:none;
     display:flex;
     align-items:center;
-    justify-content:space-around
+    justify-content:space-around;
 }
 
 .header .navbar ul li{
@@ -70,13 +71,20 @@ header i{
 
 .header .navbar ul li a{
     font-size:2rem;
-    color:#8B7EF2;
+    color:darkblue;
+    font-weight: bold;
 }
 
 .header .navbar ul li a:hover{
     color:#ccc;
 }
 
+.header .fa-bars{
+    color:darkblue;
+    cursor:pointer;
+    font-size:3rem;
+    display:none;
+}
 
 
 
@@ -664,7 +672,8 @@ header i{
     .navbar ul{
         margin:1rem 0;
         padding:10px;
-        background-color: rgba(0,0,0,0.1);
+        background-color:white;
+        color:darkblue;
     }
     .navbar{
         height:110px;
@@ -856,14 +865,49 @@ header i{
 
 /***********Mobile********************/
 @media (max-width:550px){
-    nav ul{
-        flex-direction:column;
-        width:550px;
+    .header .fa-bars{
+        display:block;
+    }
+
+    .header .navbar{
+        position:fixed;
+        top:-120%;
+        left:0;
+        height:auto;
+        width:100%;
+        z-index:1000;
+        border-top:.1rem solid rgba(0,0,0,0.3);
+    }
+
+    .header .navbar ul{
+        height:100%;
+        width:100%;
+        flex-flow:column;
+        
+    }
+
+    .header .navbar ul li{
+        margin:1rem 0;
+    }
+
+    .header .navbar ul li a{
+        color:darkblue;
+        font-size:2.4rem;
+    }
+
+    .header .fa-times{
+        transform:rotate(180deg);
+    }
+
+    .header .nav-toggle{
+        top:7.7rem;
     }
 
     .home h1{
         margin-top:2rem;
     }
+
+    
     .process{
         height:190vh;
     }
