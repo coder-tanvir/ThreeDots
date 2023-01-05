@@ -313,11 +313,13 @@ header i{
 /***********************Processes***************************/
 .process{
     width:100vw;
-    height:95vh;
+    height:auto;
     display:flex;
     justify-content: space-around;
     background-image: linear-gradient(to top, #7fffd4, #89ffff, #bdfdff, #ebfbff, #ffffff);
     font-size:1.5rem;
+    padding:10rem;
+
 }
 
 .process-content{
@@ -645,7 +647,7 @@ header i{
     width:400px;
     height:auto;
     text-align:center;
-    padding:0 2rem;
+    padding:4rem 2rem;
     margin-top:100px;
     margin:auto;
 }
@@ -730,8 +732,8 @@ header i{
 .join button:focus {
     color:white;
   box-shadow: 
-    inset -11em 0 0 0 aquamarine,
-    inset 11em 0 0 0 blue; 
+    inset 11em 0 0 0 aquamarine,
+    inset -11em 0 0 0 blue; 
     
 }
 
@@ -827,9 +829,9 @@ header i{
         height:170vh;
     }
     .process-content{
-        width:100vw;
+        width:60vw;
         text-align:center;
-        
+       
     }
     .process-box
     {
