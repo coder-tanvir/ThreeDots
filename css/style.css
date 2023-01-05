@@ -106,13 +106,13 @@ header i{
 
 .home h1{
     font-size: 4rem;
-    color:#8B7EF2;
+    color:darkblue;
     text-shadow: 0 0.3 0.5 rgba(0,0,0,0.3);
 }
 
 .home h2{
     font-size: 2.5rem;
-    color:#8B7EF2;
+    color:darkblue;
     font-weight: 400;
     text-shadow: 0 0.3 0.5 rgba(0,0,0,0.3);
 }
@@ -305,10 +305,10 @@ header i{
   }
   
   .blue-span{
-    font-size:5rem;
+    font-size:6rem;
+    font-weight:800;
     color:aquamarine;
-    -webkit-text-stroke-width: .1px;
-    -webkit-text-stroke-color: black;
+  
   }
 /***********************Processes***************************/
 .process{
